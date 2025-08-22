@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+body{
+    background-image: url('https://wallpapers.com/images/hd/minecraft-aesthetic-blocks-and-brown-houses-kopttz74d2vmck0v.jpg');
+}
+body main{
+    margin-left: 900px;
+}
+body main img{
+  width: 900px;
+  height: 100px;
+  margin-left: -350px;
+  margin-top: 20px;
+}
