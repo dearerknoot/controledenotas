@@ -14,5 +14,8 @@ body main img{
   width: 900px;
   height: 100px;
   margin-left: -350px;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+body header img{
+    margin-top: 100px;
 }
