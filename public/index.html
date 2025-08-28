@@ -11,6 +11,55 @@
 </head>
 
 <body>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  baita 
+</button>
+
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cadastro de Aluno</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Formulário dentro do Modal -->
+        <form id="formAluno">
+          <div class="form-group">
+            <label for="nome">Nome do Aluno</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite o nome do aluno" required>
+          </div>
+          <div class="form-group">
+            <label for="turma">Turma</label>
+            <input type="text" class="form-control" id="turma" placeholder="Digite a turma" required>
+          </div>
+          <div class="form-group">
+            <label for="nota1">Nota 1º Trimestre</label>
+            <input type="number" class="form-control" id="nota1" placeholder="Digite a nota do 1º trimestre" required>
+          </div>
+          <div class="form-group">
+            <label for="nota2">Nota 2º Trimestre</label>
+            <input type="number" class="form-control" id="nota2" placeholder="Digite a nota do 2º trimestre" required>
+          </div>
+          <div class="form-group">
+            <label for="nota3">Nota 3º Trimestre</label>
+            <input type="number" class="form-control" id="nota3" placeholder="Digite a nota do 3º trimestre" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary" id="salvarAluno">Salvar alterações</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <header class="header">
         <img src="logo.png" alt="">
     </header>
