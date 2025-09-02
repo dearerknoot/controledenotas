@@ -13,8 +13,13 @@ const lancarAluno = async () => {
 
 function adicionarAluno() {
 
+    const nome = document.getElementById('nome').value;
+    const turma = document.getElementById('turma').value;
+    const nota1 = document.getElementById('nota1').value;
+    const nota2 = document.getElementById('nota2').value;
+    const nota3 = document.getElementById('nota3').value;
 
-    if (!nome || !turma || isNaN(nota1) || isNaN(nota2) || isNaN(nota3)) {
+    if (!nome || !turma || !nota1|| !nota2 || !nota3) {
         alert('Todos os campos devem ser preenchidos corretamente.');
     } else {
         console.log('Dados do aluno:', nome, turma, nota1, nota2, nota3);
